@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meni Slider Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+	<div class="header">
+		<img src="img/logo.png">
+
+		<button type="button" class="btn btn-outline-dark">MENU</button>
+
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+
+	<h2>Gallery</h2>
+
+	<div class="slider-wrapper">
+        <button id="left-btn"><i class="arrow"></i></button>
+        <div class="slider-images">
+        	<img src="https://c.files.bbci.co.uk/44CF/production/_117751671_satan-shoes1.jpg">
+        	<img src="https://static.sneakerdistrict.com/images2/nike-womens-air-max-270-react-summit-whitecrimson-tint-3-1600.jpg">
+        	<img src="https://static.nike.com/a/images/w_1920,c_limit/3197962b-884d-453b-b8cd-897df77aba1f/what-to-wear-running-in-different-temperatures.jpg">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBOjt8wlCgS-h_SgtpSNq2EsM9x8XFjuVNfw&usqp=CAU" alt="">
+        </div>
+        <button id="right-btn"><i class="arrow"></i></button>
+    </div>
+
+    <h2>Nike</h2>
+
+    <div class="portfolio-wrapper">
+	    <div class="portfolio-categories">
+			<button type="button" class="btn btn-outline-secondary" data-category='sve'>All</button>
+			<button type="button" class="btn btn-outline-secondary" data-category='shoes'>Shoes</button>
+			<button type="button" class="btn btn-outline-secondary" data-category='shorts'>Shorts</button>
+			<button type="button" class="btn btn-outline-secondary" data-category='hoodies'>Hoodies</button>
+			<button type="button" class="btn btn-outline-secondary" data-category='t-shirts'>T-Shirts</button>
+			<button type="button" class="btn btn-outline-secondary" data-category='sport'>Sport</button>
+			<button type="button" class="btn btn-outline-secondary" data-category='running'>Running</button>
+	    </div>
+
+		<div class="portfolio-items">
+	    	<div class="portfolio-single-item" data-category='shoes'>
+				<img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1606840837-air-zoom-vomero-14-mens-running-shoe-m4gphg-1606840768.jpg" alt="">
+	    	</div>
+
+	    	<div class="portfolio-single-item rose" data-category='t-shirts'>
+	    		<img src="https://static.nike.com/a/images/t_default/12eb3a77-8caa-4e81-9b80-4b7493c1337c/sportswear-t-shirt-Ts4rFM.png" alt="">
+	    	</div>
+
+	    	<div class="portfolio-single-item blue" data-category='shoes'>
+	    		<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bdbed338-76cb-413e-8453-5a222a33dd7e/revolution-6-next-nature-mens-road-running-shoes-XcXMbX.png" alt="">
+	    	</div>
+
+	    	<div class="portfolio-single-item green" data-category='shorts'>
+				<img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/lqvdtbapiperebqpceg8/nikecourt-flex-mens-11-tennis-shorts-lnntt8.png" alt="">
+	    	</div>
+
+	    	<div class="portfolio-single-item brown" data-category='hoodies'>
+	    		<img src="https://www.tradeinn.com/f/13719/137194767/nike-sportswear-club-hoodie.jpg" alt="">
+	    	</div>
+
+	    	<div class="portfolio-single-item rose" data-category='t-shirts'>
+	    		<img src="https://static.nike.com/a/images/t_default/g54bwnbc2rroxe89edno/sportswear-essential-t-shirt-R9S8Fx.png" alt="">
+	    	</div>
+
+	    	<div class="portfolio-single-item blue" data-category='shoes'>
+	    		<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0f7aa6ea-1347-4835-ba2a-fd2c983d99f2/wildhorse-7-mens-trail-running-shoes-rJ6R7V.png" alt="">
+	    	</div>
+
+	    	<div class="portfolio-single-item green" data-category='shorts'>
+	    		<img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/c55fee66-872d-4b99-bdee-338b6979dc30/sportswear-older-jersey-shorts-z1m1rw.png" alt="">
+	    	</div>
+
+	    	<div class="portfolio-single-item brown" data-category='hoodies'>
+	    		<img src="https://static.nike.com/a/images/t_default/9675b5b4-4ec1-44aa-8364-1257094e74ab/sportswear-repeat-pullover-fleece-hoodie-CPHXfQ.png" alt="">
+	    	</div>
+			<div class="portfolio-single-item green" data-category='sport'>
+	    		<img src="https://www.tradeinn.com/f/13856/138562069/nike-cr7-strike-football-ball.jpg" alt="">
+	    	</div>
+			<div class="portfolio-single-item green" data-category='sport'>
+	    		<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/57808ef0-8826-43dc-8dc9-ea9251c0641a/elite-all-court-8p-basketball-Gvslv6.png" alt="">
+	    	</div>
+			<div class="portfolio-single-item green" data-category='sport'>
+	    		<img src="https://static.nike.com/a/images/t_default/f5ec4274-44c8-4c31-8804-9915246677a8/pitch-football-65F4vp.png" alt="">
+	    	</div>
+			<div class="portfolio-single-item blue" data-category='running'>
+	    		<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7bff97dc-b733-4335-8d32-8d7c2ea3136a/air-zoom-pegasus-flyease-mens-easy-on-off-road-running-shoes-7W5wmc.png" alt="">
+	    	</div>
+			<div class="portfolio-single-item blue" data-category='running'>
+	    		<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/47d31251-6d77-4e80-bfee-30d30988a81f/quest-4-road-running-shoes-43jbjR.png" alt="">
+	    	</div>
+			<div class="portfolio-single-item blue" data-category='running'>
+	    		<img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8f34f9aa-280d-4805-a6b5-f9fd56063880/zoomx-vaporfly-next-2-womens-road-racing-shoes-Dbqd8h.png" alt="">
+	    	</div>
+	    </div>
+    </div>
+
+    <div class="modal-section">
+
+		<button type="button" class="btn btn-primary btn-lg modal-1">Modal 1</button>
+		<button type="button" class="btn btn-primary btn-lg modal-2">Modal 2</button>
+
+    </div>
+
+
+    <div class="popup-modal modal-1">
+    	<button id="closeModal">X</button>
+
+    	<h4>Modal Title</h4>
+    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+	<div class="popup-modal modal-2">
+    	<button id="closeModal">X</button>
+
+		<h4>New modal window</h4>
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda mollitia distinctio harum reprehenderit ex ducimus molestias, quae ut maxime aut facilis nam consectetur cum labore eveniet sit tempore sed fugit odio voluptates. Labore dolores nisi id consequatur tenetur dignissimos ex?
+	</div>
+
+    <div class="overlay"></div>
+
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://kit.fontawesome.com/73d3984ab3.js" crossorigin="anonymous"></script>
+</body>
+</html>
